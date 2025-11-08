@@ -107,7 +107,7 @@ export default function Closing() {
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ repeat: Infinity, duration: 2 }}
         >
-          💖 Thank You Abha 💖
+          💖Happy birthday once again Abha 💖
         </motion.h1>
       </motion.div>
 

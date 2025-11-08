@@ -217,15 +217,18 @@ export default function Home() {
                     playsInline
                     className="w-full h-full object-cover"
                   />
-                <motion.div
+               <motion.div
+  onClick={() =>
+    setShowTextIndex(showTextIndex === i ? null : i)
+  } // ✅ Toggle on tap
   initial={{ opacity: 0 }}
-  whileHover={{ opacity: 1 }}
-  whileTap={{ opacity: 1 }}
+  animate={{ opacity: showTextIndex === i ? 1 : 0 }} // ✅ Show/hide
   className="absolute inset-0 bg-black/40 flex items-center justify-center 
-             text-white text-xs md:text-sm font-semibold px-2 text-center"
+             text-white text-xs md:text-sm font-semibold px-2 text-center cursor-pointer"
 >
   {clip.text}
 </motion.div>
+
 
 
                 </motion.div>

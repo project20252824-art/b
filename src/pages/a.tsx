@@ -59,7 +59,7 @@ export default function A() {
 
   // 🖼 Gallery images
   const gallery = [
-    { src: "/images/img1.jpeg", message: "Our happiest smile together 😄,Bot yaad hai yehi wali photo jab tunaayi thi st.paul's kidhar fhir aapn pheli baar milega bass u and me🫠🫠😘" },
+    { src: "/images/img1.jpeg", message: "Our happiest smile together 😄,Bot yaad hai yehi wali photo jab tunaayi thi St.paul's kidhar fhir aapn pheli baar milega bass u and me🫠🫠😘" },
     { src: "/images/img2.jpeg", message: "Unforgettable day 💕,Humara phela trip to Ghodbundhar fort...aur dmart pizza🤤🤤 khaye the...scooty rides🛵🛵 23 August i wont forget the date💕💕😚" },
     { src: "/images/img3.jpeg", message: "Pure friendship vibes 🌸,A random photo that turn to be one of the best picture..isliye toh whatsapp chat pe bhi yehi rakh diya tha😚😚..." },
     { src: "/images/img4.jpeg", message: "Laughter that never ends 😍,Hahaaa marines maja aaya tha baarish mein bhigg kar aur fir joh thandii lag rahi thi🥶🥶..first time tera hath pakad tha🫣🤭🤭" },

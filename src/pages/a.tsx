@@ -123,13 +123,16 @@ export default function A() {
                     : "h-full object-cover"
                 }`}
               />
-              <motion.div
-                className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-lg opacity-0 hover:opacity-100 transition-opacity duration-500"
-                initial={{ opacity: 0 }}
-                whileHover={{ opacity: 1 }}
-              >
-                <p className="px-3">{item.message}</p>
-              </motion.div>
+             <motion.div
+  className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center 
+             text-white text-sm md:text-lg px-3 text-center"
+  initial={{ opacity: 0 }}
+  whileHover={{ opacity: 1 }}      // ✅ Desktop hover
+  whileTap={{ opacity: 1 }}        // ✅ Mobile tap
+>
+  <p>{item.message}</p>
+</motion.div>
+
             </motion.div>
           );
         })}

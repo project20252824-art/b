@@ -59,13 +59,13 @@ export default function A() {
 
   // 🖼 Gallery images
   const gallery = [
-    { src: "/images/img1.jpeg", message: "Our happiest smile together 😄,Bot yaad hai yehi wali photo jab tunaayi thi St.paul's kidhar fhir aapn pheli baar milega bass u and me🫠🫠😘" },
+    { src: "/images/img1.jpeg", message: "Our happiest smile together 😄,Bot yaad hai yehi wali photo jab tu aayi thi St.paul's kidhar fhir aapn pheli baar milega bass u and me🫠🫠😘" },
     { src: "/images/img2.jpeg", message: "Unforgettable day 💕,Humara phela trip to Ghodbundhar fort...aur dmart pizza🤤🤤 khaye the...scooty rides🛵🛵 23 August i wont forget the date💕💕😚" },
     { src: "/images/img3.jpeg", message: "Pure friendship vibes 🌸,A random photo that turn to be one of the best picture..isliye toh whatsapp chat pe bhi yehi rakh diya tha😚😚..." },
     { src: "/images/img4.jpeg", message: "Laughter that never ends 😍,Hahaaa marines maja aaya tha baarish mein bhigg kar aur fir joh thandii lag rahi thi🥶🥶..first time tera hath pakad tha🫣🤭🤭" },
     { src: "/images/img5.jpeg", message: "Forever my favorite person 💖,Humlog ka second movie Conjuring wala..Joh bikul bhi darawana nahi tha😒..but still maja aaya becozz tumlog the isliye...aur isbar tune pheli baar mera haath pakad tha voh bhi aache se🫣🫣😳😳" },
     { src: "/images/img7.jpeg", message: "Forever my favorite person 💖,natural park halki iss time aapn itne close nahi the but still bahut maja aaya tha...phele group trip joh tha aapna😎🫠" },
-    { src: "/images/img6.jpeg", message: "The best memories live here ✨,Humara phele movie 23 September🎥🎥...maja aaya tha halki movie dekhne k jada toh humari bahut sari baat hui but koi naa after starting aache se dekhe the🍿🍿📽️...aur next time starting mein bahut sari baat hui aur after interval dekha movie matlab humlog ne full movie toh dekhi but 2 baar jaa k😂😂🤣🤣..Laughing hardly..🤣😂🤣🤣😂" },
+    { src: "/images/img6.jpeg", message: "The best memories live here ✨,Humara phele movie 23 September🎥🎥...maja aaya tha halki movie dekhne k jada toh humari bahut sari baat hui but koi naa starting aache se dekhe the🍿🍿📽️...aur next time starting mein bahut sari baat hui aur after interval dekha movie matlab humlog ne full movie toh dekhi but 2 baar jaa k😂😂🤣🤣..Laughing hardly..🤣😂🤣🤣😂" },
   ];
 
   return (

@@ -186,7 +186,9 @@ export default function Surprise() {
               🎁 Surprise! 🎁
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Bestie, you are truly one of a kind 💖  
+              You’ll get your surprise tomorrow — and not just one, but two! 😄
+              For now, just read this sweet message. 💖
+              Abhaa, you are truly one of a kind 💖  
               May your life always be filled with love, joy, and endless smiles.  
               You deserve all the happiness in the world ✨
             </p>

@@ -92,10 +92,10 @@ export default function Closing() {
       {/* 🎶 Background Music */}
       <audio src="/music/a.mpeg" autoPlay loop />
 
-      {/* Continuous Confetti */}
+      {/* 🎉 Continuous Confetti */}
       <Confetti width={size.width} height={size.height} recycle={true} numberOfPieces={250} />
 
-      {/* Main Heart Animation */}
+      {/* 💖 Main Heart Animation */}
       <motion.div
         className="p-10 rounded-[50%] bg-pink-100 shadow-2xl border-4 border-pink-400"
         initial={{ scale: 0 }}
@@ -107,11 +107,11 @@ export default function Closing() {
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ repeat: Infinity, duration: 2 }}
         >
-          💖Happy birthday once again Abha 💖
+          💖 Happy Birthday Once Again, Abha 💖
         </motion.h1>
       </motion.div>
 
-      {/* Message */}
+      {/* ✨ Message Section */}
       <motion.p
         className="mt-8 text-xl text-gray-800 max-w-2xl font-medium"
         initial={{ opacity: 0, y: 20 }}
@@ -122,7 +122,7 @@ export default function Closing() {
         You’re truly special and deserve all the happiness in the world ✨
       </motion.p>
 
-      {/* Button */}
+      {/* 🏠 Back to Home Button */}
       <motion.button
         onClick={() => navigate("/")}
         className="mt-10 px-8 py-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white text-lg font-semibold rounded-full shadow-lg hover:scale-110 transition-all"
@@ -132,13 +132,12 @@ export default function Closing() {
         🏠 Back to Home
       </motion.button>
 
-      {/* 💖 Hidden Button (Heart Click → Secret Page) */}
+      {/* 💝 Hidden Button (Secret Page) */}
       <p className="mt-10 text-gray-700 text-lg">
         Enjoy your special day{" "}
         <button
           onClick={() => navigate("/a")}
           className="text-red-600 hover:scale-125 transition-transform duration-300 cursor-pointer bg-transparent border-none outline-none"
-          title=""
         >
           🥳
         </button>{" "}

@@ -8,6 +8,7 @@ export default function Home() {
   const [showGallery, setShowGallery] = useState(false);
   const [count, setCount] = useState(10);
   const [showMain, setShowMain] = useState(false);
+  const [showTextIndex, setShowTextIndex] = useState<number | null>(null);
   const navigate = useNavigate();
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -216,15 +217,16 @@ export default function Home() {
                     playsInline
                     className="w-full h-full object-cover"
                   />
-                 <motion.div
+                <motion.div
   initial={{ opacity: 0 }}
-  whileHover={{ opacity: 1 }}       // ✅ Desktop hover
-  whileTap={{ opacity: 1 }}         // ✅ Mobile tap
+  whileHover={{ opacity: 1 }}
+  whileTap={{ opacity: 1 }}
   className="absolute inset-0 bg-black/40 flex items-center justify-center 
              text-white text-xs md:text-sm font-semibold px-2 text-center"
 >
   {clip.text}
 </motion.div>
+
 
                 </motion.div>
               ))}

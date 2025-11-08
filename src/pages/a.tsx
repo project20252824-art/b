@@ -4,6 +4,8 @@ import { useEffect, useState, useRef } from "react";
 export default function A() {
   const [size, setSize] = useState({ width: 0, height: 0 });
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [showTextIndex, setShowTextIndex] = useState<number | null>(null);
+
 
   useEffect(() => {
     const handle = () =>
@@ -124,14 +126,17 @@ export default function A() {
                 }`}
               />
              <motion.div
-  className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center 
-             text-white text-sm md:text-lg px-3 text-center"
+  onClick={() =>
+    setShowTextIndex(showTextIndex === index ? null : index)
+  } // ✅ Toggle on tap
   initial={{ opacity: 0 }}
-  whileHover={{ opacity: 1 }}      // ✅ Desktop hover
-  whileTap={{ opacity: 1 }}        // ✅ Mobile tap
+  animate={{ opacity: showTextIndex === index ? 1 : 0 }} // ✅ Show/hide
+  className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center 
+             text-white text-sm md:text-lg px-3 text-center cursor-pointer"
 >
   <p>{item.message}</p>
 </motion.div>
+
 
             </motion.div>
           );

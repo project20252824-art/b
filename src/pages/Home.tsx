@@ -220,7 +220,9 @@ export default function Home() {
                <motion.div
   onClick={() =>
     setShowTextIndex(showTextIndex === i ? null : i)
+    
   } // ✅ Toggle on tap
+  whileHover={{ scale: 1.1 }}
   initial={{ opacity: 0 }}
   animate={{ opacity: showTextIndex === i ? 1 : 0 }} // ✅ Show/hide
   className="absolute inset-0 bg-black/40 flex items-center justify-center 

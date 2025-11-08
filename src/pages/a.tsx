@@ -129,6 +129,7 @@ export default function A() {
   onClick={() =>
     setShowTextIndex(showTextIndex === index ? null : index)
   } // ✅ Toggle on tap
+  whileHover={{ scale: 1.1 }}
   initial={{ opacity: 0 }}
   animate={{ opacity: showTextIndex === index ? 1 : 0 }} // ✅ Show/hide
   className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center 
